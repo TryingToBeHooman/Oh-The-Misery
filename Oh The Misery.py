@@ -43,7 +43,6 @@ def download_oh_the_misery():
         with open(f'{folder_path}Oh The Misery {numbers_of_oh_the_misery}.png', 'wb') as handler:
             handler.write(oh_the_misery_data)
         numbers_of_oh_the_misery += 1
-        time.sleep(1)
         pp = open(file_path, 'w')
         pp.write(str(numbers_of_oh_the_misery))
         f.close()
